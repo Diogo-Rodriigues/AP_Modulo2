@@ -11,6 +11,7 @@ This work is built upon a base project developed by a colleague. As part of our 
 ## Notebooks
 
 - `data_aug.ipynb` - Data augmentation to balance the dataset.
+- `auto_invert.ipynb` - Find the images that are inverted.
 - `remove_black_bars.ipynb` - Script to preprocess images by removing black bars.
 - `split_dataset.ipynb` - script/notebook used to create and validate the split (`train` / `val` / `test`) - note: fixed splits are included under `training/dataset/`.
 - `RESNET.ipynb` - training and evaluation for a ResNet-based model.
@@ -57,3 +58,4 @@ Additionally, overall comparison metrics and visual outputs are stored in `train
 
 - Fixed splits are included in `training/dataset/` (no need to re-run `split_dataset.ipynb` unless you want a different split).
 - Check each notebook for hyperparameters and random-seed usage.
+- The dataset used for the models is on `training/dataset_cleaned/` (no need to re-run `auto_inverter.ipynb`, `data_aug.ipynb` and `remove_black_bars.ipynb` unless you want different preprocessed images).
