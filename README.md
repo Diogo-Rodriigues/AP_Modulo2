@@ -14,7 +14,14 @@ The utility and validity of the dataset is proven by a experiment. This collecti
 This repository contains:
 
 - `preprocessing/` - Jupyter notebook and utilities that demonstrate the image preprocessing pipeline.
-- `training/` - Notebooks used to create train/val/test splits and to train multiple image classification models.
+- `training/` - Notebooks used to create train/val/test splits and to train multiple image classification models. The models explored in this work include:
+  - **ResNet** (ResNet50)
+  - **MobileNet** (MobileNetV2)
+  - **EfficientNet** (B0, B4, B7)
+  - **DenseNet** (DenseNet121)
+  - **DeiT III** (Vision Transformer)
+  - **Swin Transformer**
+  - **ConvNeXt V2**
 
 ## Dataset information
 
