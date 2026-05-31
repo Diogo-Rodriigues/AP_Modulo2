@@ -58,4 +58,4 @@ Additionally, overall comparison metrics and visual outputs are stored in `train
 
 - Fixed splits are included in `training/dataset/` (no need to re-run `split_dataset.ipynb` unless you want a different split).
 - Check each notebook for hyperparameters and random-seed usage.
-- The dataset used for the models is on `training/dataset_cleaned/` (no need to re-run `auto_inverter.ipynb`, `data_aug.ipynb` and `remove_black_bars.ipynb` unless you want different preprocessed images).
+- The dataset used for the models is on `training/dataset_cleaned/` (no need to re-run `auto_invert.ipynb`, `data_aug.ipynb` and `remove_black_bars.ipynb` unless you want different preprocessed images). If needed, to run `auto_invert.ipynb`, you need to download the full dataset and call it data_images

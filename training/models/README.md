@@ -8,6 +8,7 @@ This folder contains the trained model checkpoints and summary visuals used in t
 - `densenet.pth` (+ `densenet.pth.png`, `densenet.pth_cm.png`) — DenseNet checkpoint and visuals.
 - `efficientnet_b7.pth` (+ `efficientnet_b7.pth.png`, `efficientnet_b7.pth_cm.png`) — EfficientNet checkpoint and visuals.
 - `mobilenet_v2.pth` (+ `mobilenet_v2.pth.png`, `mobilenet_v2.pth_cm.png`) — MobileNet checkpoint and visuals.
+- `inverter.pth`-  MLP checkpoint
 
 ## How to load
 
