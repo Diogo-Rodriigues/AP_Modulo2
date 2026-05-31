@@ -10,16 +10,25 @@ This work is built upon a base project developed by a colleague. As part of our 
 
 ## Notebooks
 
+- `data_aug.ipynb` - Data augmentation to balance the dataset.
+- `remove_black_bars.ipynb` - Script to preprocess images by removing black bars.
 - `split_dataset.ipynb` - script/notebook used to create and validate the split (`train` / `val` / `test`) - note: fixed splits are included under `training/dataset/`.
 - `RESNET.ipynb` - training and evaluation for a ResNet-based model.
 - `DENSENET.ipynb` - DenseNet-based training and evaluation.
 - `EFICIENTNET.ipynb` - EfficientNet-based experiments.
 - `EFICIENTNETB0.ipynb` - EfficientNetB0-specific model training and evaluation.
+- `CONVNEXTV2.ipynb` - ConvNeXt V2 experiments.
+- `SWINTRANSFORMER.ipynb` - Swin Transformer experiments.
 - `DEITIII.ipynb` - DeiT experiments.
 - `MOBILENET.ipynb` - MobileNet-based experiments.
 - `MIQR_compare_models_gradcam.ipynb` - Comparison of model performance and interpretability analysis using Grad-CAM.
 - `MIQR_occlusion.ipynb` - Occlusion sensitivity experiments for model explainability.
 - `models/` - Trained model checkpoints used for experiments (and summary visuals).
+
+## Scripts
+
+- `invert.py` - Script to invert colors of images in-place.
+- `test.py` - Simple utility script to count unique patient IDs based on filenames.
 
 Each notebook contains data loading, augmentations, training loop, validation and test evaluation, and plotting (confusion matrix, learning curves).
 
